@@ -1,0 +1,12 @@
+[package]
+name = "FerraDAMM"
+version = "1.0.0"
+published-at = "0x6615ce71ab4f4a9119cc612c04a9daf77206e23201ec5efedd6bf873b2a16fd2"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "mainnet-v1.35.4", override = true }
+MoveSTL = { git = "https://github.com/Ferra-Labs/library-contracts.git", subdir = "move-stl", rev = "main", override = true }
+IntegerMate = { git = "https://github.com/Ferra-Labs/library-contracts.git", subdir = "integer-mate", rev = "main", override = true }
+
+[addresses]
+ferra_damm = "0x6615ce71ab4f4a9119cc612c04a9daf77206e23201ec5efedd6bf873b2a16fd2"
